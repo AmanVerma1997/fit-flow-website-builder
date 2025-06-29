@@ -18,22 +18,22 @@ const Navigation = () => {
   return (
     <nav className="bg-white/95 backdrop-blur-sm border-b border-gray-100 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-14 md:h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">F</span>
+            <div className="w-7 h-7 md:w-8 md:h-8 bg-primary rounded-lg flex items-center justify-center">
+              <span className="text-white font-bold text-base md:text-lg">F</span>
             </div>
-            <span className="text-xl font-bold text-primary">FitFlow</span>
+            <span className="text-lg md:text-xl font-bold text-primary">FitFlow</span>
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden md:flex space-x-6 lg:space-x-8">
             {navItems.map((item) => (
               <Link
                 key={item.name}
                 to={item.path}
-                className="text-gray-700 hover:text-primary transition-colors duration-200 font-medium"
+                className="text-gray-700 hover:text-primary transition-colors duration-200 font-medium text-sm lg:text-base"
               >
                 {item.name}
               </Link>
@@ -42,8 +42,8 @@ const Navigation = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button className="bg-accent hover:bg-accent/90 text-white font-semibold">
-              Book Training
+            <Button className="bg-accent hover:bg-accent/90 text-white font-semibold text-sm lg:text-base px-4 lg:px-6">
+              <a href="mailto:trainer@fitflow.com?subject=Training Inquiry">Book Training</a>
             </Button>
           </div>
 
@@ -51,9 +51,9 @@ const Navigation = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-gray-700 hover:text-primary transition-colors"
+              className="text-gray-700 hover:text-primary transition-colors p-2"
             >
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -73,7 +73,7 @@ const Navigation = () => {
                 <Link
                   key={item.name}
                   to={item.path}
-                  className="block px-3 py-2 text-gray-700 hover:text-primary transition-colors font-medium"
+                  className="block px-3 py-2 text-gray-700 hover:text-primary transition-colors font-medium text-base"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}
@@ -81,7 +81,7 @@ const Navigation = () => {
               ))}
               <div className="px-3 py-2">
                 <Button className="w-full bg-accent hover:bg-accent/90 text-white font-semibold">
-                  Book Training
+                  <a href="mailto:trainer@fitflow.com?subject=Training Inquiry" className="block w-full h-full">Book Training</a>
                 </Button>
               </div>
             </div>
