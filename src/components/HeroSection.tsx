@@ -13,15 +13,29 @@ const HeroSection = () => {
               Transform Your Body,
               <span className="text-accent block">Transform Your Life</span>
             </h1>
-            <p className="text-lg md:text-xl lg:text-2xl text-blue-100 mb-6 md:mb-8 leading-relaxed">
-              Professional personal training in Mumbai with proven results. Join hundreds of clients who've achieved their fitness goals with expert guidance and personalized programs.
+            <p className="text-lg md:text-xl lg:text-2xl text-blue-100 mb-4 md:mb-6 leading-relaxed">
+              Professional personal training in Chandigarh with proven results. Join hundreds of clients who've achieved their fitness goals with expert guidance and personalized programs.
             </p>
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 mb-6 md:mb-8">
+              <div className="flex items-center justify-center lg:justify-start space-x-3 mb-2">
+                <div className="w-12 h-12 bg-accent rounded-full flex items-center justify-center">
+                  <span className="text-white font-bold text-lg">AV</span>
+                </div>
+                <div className="text-left">
+                  <h3 className="text-xl font-bold text-white">Ajay Verma</h3>
+                  <p className="text-blue-100 text-sm">Certified Trainer & Owner</p>
+                </div>
+              </div>
+              <p className="text-blue-100 text-sm text-center lg:text-left">
+                Gold's Gym Certified • Professional Dietitian & Nutritionist
+              </p>
+            </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-white font-semibold text-base md:text-lg px-6 md:px-8 py-3 md:py-4">
                 <Link to="/programs">View Programs</Link>
               </Button>
               <Button asChild size="lg" className="bg-white/20 hover:bg-white hover:text-primary text-white font-semibold text-base md:text-lg px-6 md:px-8 py-3 md:py-4 backdrop-blur-sm border border-white/30">
-                <a href="mailto:trainer@fitflow.com?subject=Free Consultation Request">Book Free Consultation</a>
+                <a href="https://wa.me/917973848128?text=Hi%20Ajay,%20I'm%20interested%20in%20your%20fitness%20programs%20and%20would%20like%20to%20book%20a%20free%20consultation.">Book Free Consultation</a>
               </Button>
             </div>
           </div>
@@ -31,7 +45,7 @@ const HeroSection = () => {
             <div className="aspect-square rounded-2xl overflow-hidden bg-white/10 backdrop-blur-sm">
               <img
                 src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                alt="Professional gym trainer in Mumbai"
+                alt="Ajay Verma - Professional gym trainer in Chandigarh"
                 className="w-full h-full object-cover"
               />
             </div>

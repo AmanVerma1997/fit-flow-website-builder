@@ -22,9 +22,9 @@ const Navigation = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <div className="w-7 h-7 md:w-8 md:h-8 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-base md:text-lg">F</span>
+              <span className="text-white font-bold text-base md:text-lg">G</span>
             </div>
-            <span className="text-lg md:text-xl font-bold text-primary">FitFlow</span>
+            <span className="text-lg md:text-xl font-bold text-primary">GYMAHOLIC</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -43,7 +43,7 @@ const Navigation = () => {
           {/* CTA Button */}
           <div className="hidden md:block">
             <Button className="bg-accent hover:bg-accent/90 text-white font-semibold text-sm lg:text-base px-4 lg:px-6">
-              <a href="mailto:trainer@fitflow.com?subject=Training Inquiry">Book Training</a>
+              <a href="https://wa.me/917973848128?text=Hi%20Ajay,%20I'm%20interested%20in%20your%20fitness%20programs%20and%20would%20like%20to%20book%20a%20training%20session.">Book Training</a>
             </Button>
           </div>
 
@@ -81,7 +81,7 @@ const Navigation = () => {
               ))}
               <div className="px-3 py-2">
                 <Button className="w-full bg-accent hover:bg-accent/90 text-white font-semibold">
-                  <a href="mailto:trainer@fitflow.com?subject=Training Inquiry" className="block w-full h-full">Book Training</a>
+                  <a href="https://wa.me/917973848128?text=Hi%20Ajay,%20I'm%20interested%20in%20your%20fitness%20programs%20and%20would%20like%20to%20book%20a%20training%20session." className="block w-full h-full">Book Training</a>
                 </Button>
               </div>
             </div>

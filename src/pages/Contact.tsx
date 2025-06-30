@@ -8,58 +8,59 @@ const Contact = () => {
   const contactMethods = [
     {
       title: "Book Personal Training",
-      description: "Schedule your 1-on-1 session",
+      description: "Schedule your 1-on-1 session with Ajay",
       action: "Call Now",
-      link: "tel:+15551234567",
+      link: "tel:+917973848128",
       icon: "📞"
     },
     {
       title: "WhatsApp Message",
       description: "Quick questions and bookings",
       action: "Message Now",
-      link: "https://wa.me/15551234567",
+      link: "https://wa.me/917973848128?text=Hi%20Ajay,%20I'm%20interested%20in%20your%20fitness%20programs%20and%20would%20like%20to%20book%20a%20consultation.",
       icon: "💬"
     },
     {
       title: "Email Consultation",
       description: "Detailed program information",
       action: "Send Email",
-      link: "mailto:info@fitflow.com?subject=Fitness Consultation Request",
+      link: "mailto:trainerajayverma10@gmail.com?subject=Fitness%20Consultation%20Request&body=Hi%20Ajay,%0A%0AI%20am%20interested%20in%20your%20fitness%20programs%20and%20would%20like%20to%20know%20more%20about:%0A%0A1.%20Available%20training%20programs%0A2.%20Pricing%20details%0A3.%20Schedule%20availability%0A4.%20Nutrition%20guidance%0A%0APlease%20get%20back%20to%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you!",
       icon: "📧"
     }
   ];
 
   const gymInfo = {
-    name: "FitFlow Fitness Studio",
-    address: "123 Fitness Street, Wellness District, City, State 12345",
+    name: "GYMAHOLIC Wellness Studio",
+    address: "88/1-2 Opp Shivalik Garden, Shanti Nagar Manimajra, Chandigarh, India - 160101",
     hours: {
       weekdays: "Monday - Friday: 6:00 AM - 10:00 PM",
-      weekends: "Saturday - Sunday: 8:00 AM - 8:00 PM"
+      weekends: "Saturday - Sunday: 6:00 AM - 9:00 PM"
     },
-    phone: "(555) 123-4567",
-    email: "info@fitflow.com"
+    phone: "+91 7973848128",
+    email: "trainerajayverma10@gmail.com",
+    instagram: "@gymaholic_wellness_studio"
   };
 
   const faqs = [
     {
-      question: "How do I get started?",
-      answer: "Simply book a free consultation where we'll discuss your goals, assess your current fitness level, and recommend the best program for you."
+      question: "How do I get started with Ajay Verma?",
+      answer: "Simply book a free consultation where Ajay will discuss your goals, assess your current fitness level, and recommend the best program for you."
     },
     {
       question: "What should I bring to my first session?",
-      answer: "Bring comfortable workout clothes, athletic shoes, a water bottle, and a positive attitude! All equipment is provided."
+      answer: "Bring comfortable workout clothes, athletic shoes, a water bottle, and a positive attitude! All equipment is provided at GYMAHOLIC."
     },
     {
       question: "Do you offer nutrition guidance?",
-      answer: "Yes! All programs include nutrition guidance, meal planning support, and dietary recommendations tailored to your goals."
+      answer: "Yes! Ajay is a certified dietitian and nutritionist. All programs include personalized nutrition guidance, meal planning, and dietary recommendations."
     },
     {
       question: "Can I train if I'm a complete beginner?",
-      answer: "Absolutely! Our programs are designed for all fitness levels. We'll start at your current level and progress safely."
+      answer: "Absolutely! Ajay's programs are designed for all fitness levels. He'll start at your current level and progress safely with proper guidance."
     },
     {
-      question: "What if I have past injuries?",
-      answer: "We work with many clients who have previous injuries. We'll modify exercises as needed and work around any limitations safely."
+      question: "What are Ajay's qualifications?",
+      answer: "Ajay Verma is Gold's Gym certified trainer and a professional dietitian & nutritionist with 5+ years of experience transforming lives."
     }
   ];
 
@@ -74,7 +75,7 @@ const Contact = () => {
             Ready to Transform Your Life?
           </h1>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-            Get in touch today to start your fitness journey. Free consultation available to discuss your goals and find the perfect program for you.
+            Get in touch with Ajay Verma today to start your fitness journey. Free consultation available to discuss your goals and find the perfect program for you.
           </p>
         </div>
       </section>
@@ -87,7 +88,7 @@ const Contact = () => {
               Let's Connect
             </h2>
             <p className="text-xl text-gray-600">
-              Choose the best way to reach out - I'm here to help you succeed!
+              Choose the best way to reach out - Ajay is here to help you succeed!
             </p>
           </div>
 
@@ -136,20 +137,29 @@ const Contact = () => {
                     <h3 className="font-semibold text-primary text-lg mb-2">📞 Contact</h3>
                     <p className="text-gray-600">Phone: {gymInfo.phone}</p>
                     <p className="text-gray-600">Email: {gymInfo.email}</p>
+                    <p className="text-gray-600">Instagram: {gymInfo.instagram}</p>
                   </div>
                 </CardContent>
               </Card>
             </div>
 
-            {/* Map Placeholder */}
+            {/* Map */}
             <div>
               <h2 className="text-3xl font-bold text-primary mb-8">Find Us</h2>
               <div className="bg-gray-200 rounded-lg h-80 flex items-center justify-center">
                 <div className="text-center text-gray-600">
                   <div className="text-4xl mb-4">🗺️</div>
-                  <p className="font-semibold">Interactive Map</p>
-                  <p className="text-sm">Embedded Google Maps would go here</p>
-                  <p className="text-sm text-accent">{gymInfo.address}</p>
+                  <p className="font-semibold">GYMAHOLIC Wellness Studio</p>
+                  <p className="text-sm">Shanti Nagar Manimajra, Chandigarh</p>
+                  <p className="text-sm text-accent">Pincode: 160101</p>
+                  <a 
+                    href="https://maps.google.com/?q=88/1-2+Opp+Shivalik+Garden+Shanti+Nagar+Manimajra+Chandigarh+160101"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block mt-2 text-accent hover:underline"
+                  >
+                    View on Google Maps
+                  </a>
                 </div>
               </div>
             </div>
@@ -165,7 +175,7 @@ const Contact = () => {
               Frequently Asked Questions
             </h2>
             <p className="text-xl text-gray-600">
-              Get answers to common questions about our training programs
+              Get answers to common questions about Ajay's training programs
             </p>
           </div>
 
@@ -193,14 +203,14 @@ const Contact = () => {
             Free Consultation Available
           </h2>
           <p className="text-xl text-blue-100 mb-8">
-            Not sure which program is right for you? Book a free 30-minute consultation to discuss your goals and get personalized recommendations.
+            Not sure which program is right for you? Book a free 30-minute consultation with Ajay to discuss your goals and get personalized recommendations.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-white font-semibold text-lg px-8 py-4">
-              <a href="tel:+15551234567">Call (555) 123-4567</a>
+              <a href="tel:+917973848128">Call +91 7973848128</a>
             </Button>
             <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary font-semibold text-lg px-8 py-4">
-              <a href="mailto:info@fitflow.com?subject=Free Consultation Request">Email for Consultation</a>
+              <a href="mailto:trainerajayverma10@gmail.com?subject=Free%20Consultation%20Request&body=Hi%20Ajay,%0A%0AI%20would%20like%20to%20book%20a%20free%20consultation%20to%20discuss%20my%20fitness%20goals.%0A%0APlease%20let%20me%20know%20your%20available%20time%20slots.%0A%0AThank%20you!">Email for Consultation</a>
             </Button>
           </div>
         </div>
