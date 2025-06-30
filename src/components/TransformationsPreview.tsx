@@ -6,11 +6,25 @@ import { Link } from 'react-router-dom';
 const TransformationsPreview = () => {
   const transformations = [
     {
-      name: "Rohit M.",
+      name: "Arjun S.",
       program: "Weight Loss Program",
-      result: "Lost 18 kgs in 14 weeks",
-      image: "/lovable-uploads/69c70de7-75e0-4ea2-9827-1735359840d4.png",
-      testimonial: "Training with Ajay completely changed my life. I lost weight, gained confidence, and learned sustainable eating habits that work with Indian cuisine."
+      result: "Lost 22 kgs in 16 weeks",
+      image: "/lovable-uploads/4260bdc1-a6e4-487f-b148-c19dc767641f.png",
+      testimonial: "Training with Ajay completely transformed my life. The personalized approach and consistent motivation helped me achieve results I never thought possible."
+    },
+    {
+      name: "Vikram R.",
+      program: "Body Transformation",
+      result: "Lost 18 kgs & gained muscle",
+      image: "/lovable-uploads/af41ebc5-aa69-4141-bb1e-072fb853c27d.png",
+      testimonial: "Ajay's guidance on both training and nutrition was incredible. I not only lost weight but also built the physique I always wanted."
+    },
+    {
+      name: "Priya M.",
+      program: "Fitness Transformation",
+      result: "Lost 15 kgs in 12 weeks",
+      image: "/lovable-uploads/31836de0-0ae0-490b-af7a-c9dd23a25fc9.png",
+      testimonial: "The support and personalized training plan made all the difference. I feel stronger and more confident than ever before."
     }
   ];
 

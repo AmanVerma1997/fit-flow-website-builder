@@ -7,14 +7,74 @@ import { Button } from '@/components/ui/button';
 const Transformations = () => {
   const transformations = [
     {
-      name: "Rohit M.",
-      age: 28,
+      name: "Arjun S.",
+      age: 32,
       program: "Weight Loss Transformation",
+      duration: "16 weeks",
+      result: "Lost 22 kgs, gained confidence",
+      image: "/lovable-uploads/4260bdc1-a6e4-487f-b148-c19dc767641f.png",
+      testimonial: "Training with Ajay completely transformed my life. The personalized approach and consistent motivation helped me achieve results I never thought possible.",
+      achievements: ["22 kgs weight loss", "Improved stamina", "Better posture", "Increased confidence"]
+    },
+    {
+      name: "Vikram R.",
+      age: 28,
+      program: "Body Transformation",
+      duration: "18 weeks",
+      result: "Lost 18 kgs & gained muscle",
+      image: "/lovable-uploads/af41ebc5-aa69-4141-bb1e-072fb853c27d.png",
+      testimonial: "Ajay's guidance on both training and nutrition was incredible. I not only lost weight but also built the physique I always wanted.",
+      achievements: ["18 kgs weight loss", "Muscle gain", "Better metabolism", "Improved strength"]
+    },
+    {
+      name: "Priya M.",
+      age: 26,
+      program: "Fitness Transformation",
+      duration: "12 weeks",
+      result: "Lost 15 kgs in 12 weeks",
+      image: "/lovable-uploads/31836de0-0ae0-490b-af7a-c9dd23a25fc9.png",
+      testimonial: "The support and personalized training plan made all the difference. I feel stronger and more confident than ever before.",
+      achievements: ["15 kgs weight loss", "Toned physique", "Better endurance", "Healthy lifestyle"]
+    },
+    {
+      name: "Rohit K.",
+      age: 35,
+      program: "Complete Body Transformation",
+      duration: "20 weeks",
+      result: "Lost 25 kgs & built muscle",
+      image: "/lovable-uploads/67d99b51-6ec7-437d-b670-b611898ebb3c.png",
+      testimonial: "Ajay's expertise and dedication helped me achieve the transformation I always dreamed of. The journey was challenging but incredibly rewarding.",
+      achievements: ["25 kgs weight loss", "Significant muscle gain", "Better health markers", "Lifestyle change"]
+    },
+    {
+      name: "Sneha P.",
+      age: 29,
+      program: "Weight Loss & Toning",
       duration: "14 weeks",
-      result: "Lost 18 kgs, gained confidence",
-      image: "/lovable-uploads/69c70de7-75e0-4ea2-9827-1735359840d4.png",
-      testimonial: "Training with Ajay completely changed my life. I lost weight, gained confidence, and learned sustainable eating habits that work with Indian cuisine.",
-      achievements: ["18 kgs weight loss", "Improved energy levels", "Better sleep quality", "Increased confidence"]
+      result: "Lost 12 kgs & toned body",
+      image: "/lovable-uploads/b5ca9a1f-9400-40f8-b963-2a999e558bcc.png",
+      testimonial: "The holistic approach to fitness and nutrition transformed not just my body but my entire lifestyle. I'm grateful for Ajay's support.",
+      achievements: ["12 kgs weight loss", "Improved body composition", "Better flexibility", "Increased energy"]
+    },
+    {
+      name: "Karan M.",
+      age: 24,
+      program: "Muscle Building Program",
+      duration: "16 weeks",
+      result: "Lost fat & gained muscle mass",
+      image: "/lovable-uploads/a3fe7dc4-7cb9-4dc9-8444-954c2772d38d.png",
+      testimonial: "From being overweight to having a lean, muscular physique - Ajay made it possible with his scientific approach to training.",
+      achievements: ["Significant fat loss", "Lean muscle gain", "Improved definition", "Better strength"]
+    },
+    {
+      name: "Ananya S.",
+      age: 27,
+      program: "Complete Transformation",
+      duration: "18 weeks",
+      result: "Lost 16 kgs & gained strength",
+      image: "/lovable-uploads/31685f01-d8d7-4661-aa09-6c961eaba205.png",
+      testimonial: "The transformation journey with Ajay was life-changing. I discovered my inner strength and achieved a body I'm proud of.",
+      achievements: ["16 kgs weight loss", "Increased strength", "Better posture", "Enhanced confidence"]
     }
   ];
 
