@@ -19,7 +19,11 @@ const HeroSection = () => {
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 mb-6 md:mb-8">
               <div className="flex items-center justify-center lg:justify-start space-x-3 mb-2">
                 <div className="w-12 h-12 bg-accent rounded-full flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">AV</span>
+                  <img
+                    src="/lovable-uploads/69c70de7-75e0-4ea2-9827-1735359840d4.png"
+                    alt="Ajay Verma"
+                    className="w-full h-full object-cover rounded-full"
+                  />
                 </div>
                 <div className="text-left">
                   <h3 className="text-xl font-bold text-white">Ajay Verma</h3>
@@ -44,7 +48,7 @@ const HeroSection = () => {
           <div className="relative animate-scale-in">
             <div className="aspect-square rounded-2xl overflow-hidden bg-white/10 backdrop-blur-sm">
               <img
-                src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                src="/lovable-uploads/69c70de7-75e0-4ea2-9827-1735359840d4.png"
                 alt="Ajay Verma - Professional gym trainer in Chandigarh"
                 className="w-full h-full object-cover"
               />

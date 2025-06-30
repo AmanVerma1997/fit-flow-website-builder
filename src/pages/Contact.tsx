@@ -1,4 +1,3 @@
-
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -24,20 +23,20 @@ const Contact = () => {
       title: "Email Consultation",
       description: "Detailed program information",
       action: "Send Email",
-      link: "mailto:trainerajayverma10@gmail.com?subject=Fitness%20Consultation%20Request&body=Hi%20Ajay,%0A%0AI%20am%20interested%20in%20your%20fitness%20programs%20and%20would%20like%20to%20know%20more%20about:%0A%0A1.%20Available%20training%20programs%0A2.%20Pricing%20details%0A3.%20Schedule%20availability%0A4.%20Nutrition%20guidance%0A%0APlease%20get%20back%20to%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you!",
+      link: "mailto:trainwithajayverma@gmail.com?subject=Fitness%20Consultation%20Request&body=Hi%20Ajay,%0A%0AI%20am%20interested%20in%20your%20fitness%20programs%20and%20would%20like%20to%20know%20more%20about:%0A%0A1.%20Available%20training%20programs%0A2.%20Pricing%20details%0A3.%20Schedule%20availability%0A4.%20Nutrition%20guidance%0A%0APlease%20get%20back%20to%20me%20at%20your%20earliest%20convenience.%0A%0AThank%20you!",
       icon: "📧"
     }
   ];
 
   const gymInfo = {
-    name: "GYMAHOLIC Wellness Studio",
-    address: "88/1-2 Opp Shivalik Garden, Shanti Nagar Manimajra, Chandigarh, India - 160101",
+    name: "Gymaholics Wellness Studio",
+    address: "Hermitage Centralis, VIP Rd, Zirakpur, Punjab 140603",
     hours: {
       weekdays: "Monday - Friday: 6:00 AM - 10:00 PM",
       weekends: "Saturday - Sunday: 6:00 AM - 9:00 PM"
     },
     phone: "+91 7973848128",
-    email: "trainerajayverma10@gmail.com",
+    email: "trainwithajayverma@gmail.com",
     instagram: "@gymaholic_wellness_studio"
   };
 
@@ -149,11 +148,12 @@ const Contact = () => {
               <div className="bg-gray-200 rounded-lg h-80 flex items-center justify-center">
                 <div className="text-center text-gray-600">
                   <div className="text-4xl mb-4">🗺️</div>
-                  <p className="font-semibold">GYMAHOLIC Wellness Studio</p>
-                  <p className="text-sm">Shanti Nagar Manimajra, Chandigarh</p>
-                  <p className="text-sm text-accent">Pincode: 160101</p>
+                  <p className="font-semibold">Gymaholics Wellness Studio</p>
+                  <p className="text-sm">Hermitage Centralis, VIP Rd</p>
+                  <p className="text-sm">Zirakpur, Punjab</p>
+                  <p className="text-sm text-accent">Pincode: 140603</p>
                   <a 
-                    href="https://maps.google.com/?q=88/1-2+Opp+Shivalik+Garden+Shanti+Nagar+Manimajra+Chandigarh+160101"
+                    href="https://maps.google.com/?q=Gymaholics+Wellness+Studio+Hermitage+Centralis+VIP+Rd+Zirakpur+Punjab+140603"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block mt-2 text-accent hover:underline"
@@ -210,7 +210,7 @@ const Contact = () => {
               <a href="tel:+917973848128">Call +91 7973848128</a>
             </Button>
             <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary font-semibold text-lg px-8 py-4">
-              <a href="mailto:trainerajayverma10@gmail.com?subject=Free%20Consultation%20Request&body=Hi%20Ajay,%0A%0AI%20would%20like%20to%20book%20a%20free%20consultation%20to%20discuss%20my%20fitness%20goals.%0A%0APlease%20let%20me%20know%20your%20available%20time%20slots.%0A%0AThank%20you!">Email for Consultation</a>
+              <a href="mailto:trainwithajayverma@gmail.com?subject=Free%20Consultation%20Request&body=Hi%20Ajay,%0A%0AI%20would%20like%20to%20book%20a%20free%20consultation%20to%20discuss%20my%20fitness%20goals.%0A%0APlease%20let%20me%20know%20your%20available%20time%20slots.%0A%0AThank%20you!">Email for Consultation</a>
             </Button>
           </div>
         </div>

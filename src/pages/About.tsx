@@ -36,7 +36,7 @@ const About = () => {
                 <span className="text-accent block">Starts Here</span>
               </h1>
               <p className="text-lg md:text-xl text-blue-100 mb-6 md:mb-8 leading-relaxed">
-                Hi, I'm Ajay Verma, a Gold's Gym certified personal trainer and professional dietitian from Chandigarh with over 5 years of experience in transforming lives through fitness. My mission is to make fitness accessible and sustainable for everyone.
+                Hi, I'm Ajay Verma, a Gold's Gym certified personal trainer and professional dietitian from Chandigarh with over 5 years of experience in transforming lives through fitness. As the owner of Gymaholics Wellness Studio, my mission is to make fitness accessible and sustainable for everyone.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-white font-semibold text-base md:text-lg px-6 md:px-8 py-3 md:py-4">
@@ -49,7 +49,7 @@ const About = () => {
             <div className="relative animate-scale-in order-1 lg:order-2">
               <div className="aspect-square rounded-2xl overflow-hidden bg-white/10 backdrop-blur-sm">
                 <img
-                  src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  src="/lovable-uploads/69c70de7-75e0-4ea2-9827-1735359840d4.png"
                   alt="Ajay Verma - Professional Personal Trainer"
                   className="w-full h-full object-cover"
                 />
@@ -95,7 +95,7 @@ const About = () => {
             </p>
             
             <p>
-              As the owner and head trainer of GYMAHOLIC Wellness Studio in Manimajra, Chandigarh, I've dedicated my career to helping people achieve their fitness goals through personalized training programs and professional nutrition guidance. My dual expertise as both a certified trainer and professional dietitian allows me to provide comprehensive fitness solutions.
+              As the owner and head trainer of Gymaholics Wellness Studio in Zirakpur, I've dedicated my career to helping people achieve their fitness goals through personalized training programs and professional nutrition guidance. My dual expertise as both a certified trainer and professional dietitian allows me to provide comprehensive fitness solutions.
             </p>
             
             <p>
@@ -103,7 +103,7 @@ const About = () => {
             </p>
             
             <p>
-              At GYMAHOLIC, I've helped over 500 clients transform their lives - from busy professionals dealing with lifestyle diseases to students wanting to build confidence through fitness. My approach focuses on long-term results rather than quick fixes, ensuring every client develops healthy habits that last a lifetime.
+              At Gymaholics, I've helped over 500 clients transform their lives - from busy professionals dealing with lifestyle diseases to students wanting to build confidence through fitness. My approach focuses on long-term results rather than quick fixes, ensuring every client develops healthy habits that last a lifetime.
             </p>
           </div>
         </div>
@@ -139,7 +139,7 @@ const About = () => {
             Ready to Transform Your Life?
           </h2>
           <p className="text-lg md:text-xl text-blue-100 mb-6 md:mb-8">
-            Let's work together to achieve your fitness goals with personalized training and nutrition guidance at GYMAHOLIC Wellness Studio.
+            Let's work together to achieve your fitness goals with personalized training and nutrition guidance at Gymaholics Wellness Studio.
           </p>
           <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-white font-semibold text-base md:text-lg px-6 md:px-8 py-3 md:py-4">
             <a href="https://wa.me/917973848128?text=Hi%20Ajay,%20I'm%20interested%20in%20your%20fitness%20programs%20and%20would%20like%20to%20start%20my%20transformation%20journey.">Start Your Journey</a>

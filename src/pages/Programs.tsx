@@ -11,7 +11,6 @@ const Programs = () => {
       description: "A comprehensive 12-week program designed to help you lose weight sustainably through a combination of cardio, strength training, and traditional Indian nutrition guidance.",
       duration: "12 weeks",
       sessions: "3x per week",
-      price: "Starting at ₹8,999/month",
       benefits: [
         "Personalized workout plans",
         "Cardio and strength training",
@@ -28,7 +27,6 @@ const Programs = () => {
       description: "Structured 16-week strength training program designed to build lean muscle mass with Indian dietary preferences and progressive overload techniques.",
       duration: "16 weeks",
       sessions: "4x per week",
-      price: "Starting at ₹11,999/month",
       benefits: [
         "Progressive strength training",
         "Muscle building techniques",
@@ -44,7 +42,6 @@ const Programs = () => {
       description: "8-week program combining functional movement patterns with traditional yoga asanas for improved daily life strength and flexibility.",
       duration: "8 weeks",
       sessions: "2x per week",
-      price: "Starting at ₹6,999/month",
       benefits: [
         "Traditional yoga integration",
         "Injury prevention techniques",
@@ -60,7 +57,6 @@ const Programs = () => {
       description: "Specialized program for IT professionals and office workers dealing with desk job challenges, back pain, and sedentary lifestyle issues.",
       duration: "12 weeks",
       sessions: "4-5x per week",
-      price: "Starting at ₹14,999/month",
       benefits: [
         "Desk job specific exercises",
         "Posture correction techniques",
@@ -76,7 +72,6 @@ const Programs = () => {
       description: "Safe and effective fitness program designed for adults 55+ focusing on maintaining independence, strength, and traditional Indian wellness practices.",
       duration: "Ongoing",
       sessions: "2-3x per week",
-      price: "Starting at ₹5,999/month",
       benefits: [
         "Age-appropriate exercises",
         "Fall prevention training",
@@ -92,7 +87,6 @@ const Programs = () => {
       description: "Remote personal training with customized workout plans, video calls, and continuous support. Perfect for busy schedules and traveling professionals.",
       duration: "Flexible",
       sessions: "Self-paced",
-      price: "Starting at ₹3,999/month",
       benefits: [
         "Custom workout videos in Hindi/English",
         "Weekly video check-ins",
@@ -146,7 +140,7 @@ const Programs = () => {
                   <div className="space-y-1 text-xs md:text-sm text-gray-600">
                     <div>Duration: <span className="font-semibold text-accent">{program.duration}</span></div>
                     <div>Sessions: <span className="font-semibold text-accent">{program.sessions}</span></div>
-                    <div className="text-base md:text-lg font-bold text-primary">{program.price}</div>
+                    <div className="text-sm font-semibold text-primary">Contact trainer for pricing details</div>
                   </div>
                 </CardHeader>
                 <CardContent className="space-y-4 flex-1 flex flex-col">
@@ -163,7 +157,7 @@ const Programs = () => {
                     </ul>
                   </div>
                   <Button asChild className="w-full bg-primary hover:bg-primary/90 mt-auto">
-                    <a href={`https://wa.me/917973848128?text=Hi%20Ajay,%20I'm%20interested%20in%20the%20${program.title}%20program.%20Could%20you%20please%20share%20more%20details%20about%20the%20training%20schedule%20and%20how%20to%20get%20started?`}>Get Started</a>
+                    <a href={`https://wa.me/917973848128?text=Hi%20Ajay,%20I'm%20interested%20in%20the%20${program.title}%20program.%20Could%20you%20please%20share%20more%20details%20about%20the%20training%20schedule%20and%20pricing?`}>Get Started</a>
                   </Button>
                 </CardContent>
               </Card>

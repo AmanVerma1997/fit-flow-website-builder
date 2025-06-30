@@ -19,7 +19,7 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Quick Links */}
+          {/* Quick Links - Hidden on mobile */}
           <div className="hidden md:block">
             <h3 className="text-base md:text-lg font-semibold mb-3 md:mb-4">Quick Links</h3>
             <ul className="space-y-2">
@@ -30,7 +30,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Services */}
+          {/* Services - Hidden on mobile */}
           <div className="hidden md:block">
             <h3 className="text-base md:text-lg font-semibold mb-3 md:mb-4">Services</h3>
             <ul className="space-y-2 text-blue-100 text-sm md:text-base">
@@ -45,9 +45,9 @@ const Footer = () => {
           <div>
             <h3 className="text-base md:text-lg font-semibold mb-3 md:mb-4">Get in Touch</h3>
             <div className="space-y-2 text-blue-100 text-sm md:text-base">
-              <p>📧 trainerajayverma10@gmail.com</p>
+              <p>📧 trainwithajayverma@gmail.com</p>
               <p>📱 +91 7973848128</p>
-              <p className="hidden md:block">📍 Gymaholic Wellness Studio, Shanti Nagar Manimajra, Chandigarh</p>
+              <p className="hidden md:block">📍 Gymaholics Wellness Studio, Hermitage Centralis, VIP Rd, Zirakpur, Punjab 140603</p>
               <p>📸 @gymaholic_wellness_studio</p>
             </div>
             <div className="mt-4">
