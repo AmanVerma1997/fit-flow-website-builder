@@ -22,9 +22,9 @@ const Navigation = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <div className="w-7 h-7 md:w-8 md:h-8 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-base md:text-lg">G</span>
+              <span className="text-white font-bold text-xs md:text-sm">TA</span>
             </div>
-            <span className="text-lg md:text-xl font-bold text-primary">GYMAHOLIC</span>
+            <span className="text-sm md:text-xl font-bold text-primary">TRAIN WITH AJAY</span>
           </Link>
 
           {/* Desktop Navigation */}

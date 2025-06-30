@@ -8,70 +8,70 @@ import { Link } from 'react-router-dom';
 const Transformations = () => {
   const transformations = [
     {
-      name: "Sarah M.",
-      age: 32,
-      program: "Weight Loss Transformation",
-      duration: "12 weeks",
-      result: "Lost 35 lbs, gained confidence",
-      beforeImage: "https://images.unsplash.com/photo-1594736797933-d0d501ba2fe6?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      afterImage: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      testimonial: "The program changed my life completely. I feel stronger and more confident than ever before. The personalized approach made all the difference.",
-      achievements: ["35 lbs weight loss", "Improved energy levels", "Better sleep quality", "Increased strength"]
-    },
-    {
-      name: "Mike R.",
+      name: "Rohit M.",
       age: 28,
-      program: "Muscle Building Program",
-      duration: "16 weeks",
-      result: "Gained 20 lbs lean muscle",
-      beforeImage: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      afterImage: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      testimonial: "Professional guidance made all the difference. I achieved results I never thought possible and learned proper form and technique.",
-      achievements: ["20 lbs muscle gain", "Doubled strength", "Improved posture", "Better nutrition habits"]
-    },
-    {
-      name: "Lisa K.",
-      age: 45,
-      program: "Functional Fitness",
-      duration: "8 weeks",
-      result: "Improved mobility & eliminated pain",
-      beforeImage: "https://images.unsplash.com/photo-1594736797933-d0d501ba2fe6?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      afterImage: "https://images.unsplash.com/photo-1599058917212-d750089bc07e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      testimonial: "My daily activities became so much easier. No more back pain and I feel energized all day. The functional approach was perfect for my needs.",
-      achievements: ["Eliminated back pain", "Improved flexibility", "Better balance", "Increased daily energy"]
-    },
-    {
-      name: "David T.",
-      age: 35,
-      program: "Athletic Performance",
-      duration: "12 weeks",
-      result: "Improved sports performance by 40%",
-      beforeImage: "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      afterImage: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      testimonial: "My athletic performance reached a new level. The sport-specific training helped me excel in my competitions and prevented injuries.",
-      achievements: ["40% performance increase", "Faster sprint times", "Better agility", "Injury prevention"]
-    },
-    {
-      name: "Maria S.",
-      age: 29,
       program: "Weight Loss Transformation",
-      duration: "16 weeks",
-      result: "Lost 45 lbs, transformed lifestyle",
-      beforeImage: "https://images.unsplash.com/photo-1594736797933-d0d501ba2fe6?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      afterImage: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      testimonial: "This journey taught me that fitness is a lifestyle, not a quick fix. I've maintained my results for over a year now and couldn't be happier.",
-      achievements: ["45 lbs weight loss", "Lifestyle transformation", "Maintained results 1+ year", "Improved mental health"]
+      duration: "14 weeks",
+      result: "Lost 18 kgs, gained confidence",
+      beforeImage: "/lovable-uploads/72446fa7-eedc-4848-bf93-28428b2d74e4.png",
+      afterImage: "/lovable-uploads/1e9d56d3-d635-4f79-8aca-8d5d76fd9b86.png",
+      testimonial: "Training with Ajay completely changed my life. I lost weight, gained confidence, and learned sustainable eating habits that work with Indian cuisine.",
+      achievements: ["18 kgs weight loss", "Improved energy levels", "Better sleep quality", "Increased confidence"]
     },
     {
-      name: "Robert L.",
-      age: 62,
-      program: "Senior Fitness",
-      duration: "Ongoing",
-      result: "Regained mobility and independence",
-      beforeImage: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      afterImage: "https://images.unsplash.com/photo-1599058917212-d750089bc07e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      testimonial: "At 62, I thought my best days were behind me. This program proved me wrong. I'm stronger now than I was 10 years ago.",
-      achievements: ["Improved balance", "Increased bone density", "Better cardiovascular health", "Enhanced quality of life"]
+      name: "Priya S.",
+      age: 26,
+      program: "Body Transformation",
+      duration: "12 weeks",
+      result: "Lost 12 kgs & toned body",
+      beforeImage: "/lovable-uploads/ddc0855d-4c0a-4859-859f-7476fd9ac148.png",
+      afterImage: "/lovable-uploads/23f987f0-0ff2-4645-b51b-a6afce063afc.png",
+      testimonial: "Ajay's guidance helped me achieve the toned body I always wanted. The combination of strength training and proper nutrition worked perfectly for me.",
+      achievements: ["12 kgs weight loss", "Improved muscle tone", "Better flexibility", "Increased strength"]
+    },
+    {
+      name: "Vikram K.",
+      age: 24,
+      program: "Muscle Building",
+      duration: "16 weeks",
+      result: "Gained 8 kgs lean muscle",
+      beforeImage: "/lovable-uploads/23f987f0-0ff2-4645-b51b-a6afce063afc.png",
+      afterImage: "/lovable-uploads/0e5182a0-a942-4bc2-b4da-a419c6f9f8e3.png",
+      testimonial: "Professional guidance from Ajay made all the difference. I built muscle while following my vegetarian diet and feel stronger than ever before.",
+      achievements: ["8 kgs muscle gain", "Doubled strength", "Improved posture", "Better nutrition habits"]
+    },
+    {
+      name: "Sneha R.",
+      age: 30,
+      program: "Weight Loss & Toning",
+      duration: "20 weeks",
+      result: "Lost 15 kgs & improved fitness",
+      beforeImage: "/lovable-uploads/54b4f9d3-5f44-436d-87d8-b819cbc9e817.png",
+      afterImage: "/lovable-uploads/ddc0855d-4c0a-4859-859f-7476fd9ac148.png",
+      testimonial: "My transformation journey with Ajay was life-changing. I not only lost weight but also developed a healthy relationship with fitness and nutrition.",
+      achievements: ["15 kgs weight loss", "Improved cardiovascular health", "Better muscle definition", "Lifestyle transformation"]
+    },
+    {
+      name: "Arjun P.",
+      age: 32,
+      program: "Body Recomposition",
+      duration: "18 weeks",
+      result: "Improved body composition by 40%",
+      beforeImage: "/lovable-uploads/0e5182a0-a942-4bc2-b4da-a419c6f9f8e3.png",
+      afterImage: "/lovable-uploads/72446fa7-eedc-4848-bf93-28428b2d74e4.png",
+      testimonial: "Ajay's scientific approach to training and nutrition helped me achieve results I never thought possible. The program was perfectly tailored to my goals.",
+      achievements: ["40% body composition improvement", "Increased muscle mass", "Reduced body fat", "Enhanced athletic performance"]
+    },
+    {
+      name: "Kavya M.",
+      age: 27,
+      program: "Functional Fitness",
+      duration: "10 weeks",
+      result: "Improved mobility & strength",
+      beforeImage: "/lovable-uploads/54b4f9d3-5f44-436d-87d8-b819cbc9e817.png",
+      afterImage: "/lovable-uploads/23f987f0-0ff2-4645-b51b-a6afce063afc.png",
+      testimonial: "My daily activities became so much easier after training with Ajay. No more back pain and I feel energized throughout the day.",
+      achievements: ["Eliminated back pain", "Improved flexibility", "Better balance", "Increased daily energy"]
     }
   ];
 
@@ -188,7 +188,7 @@ const Transformations = () => {
             Join hundreds of successful clients who have achieved their fitness goals with our proven programs and expert guidance.
           </p>
           <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-white font-semibold text-lg px-8 py-4">
-            <Link to="/contact">Start Your Journey</Link>
+            <a href="https://wa.me/917973848128?text=Hi%20Ajay,%20I'm%20interested%20in%20starting%20my%20fitness%20transformation%20journey.%20Could%20you%20please%20share%20more%20details%20about%20your%20programs?">Start Your Journey</a>
           </Button>
         </div>
       </section>

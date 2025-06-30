@@ -10,9 +10,9 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-7 h-7 md:w-8 md:h-8 bg-accent rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-base md:text-lg">G</span>
+                <span className="text-white font-bold text-xs md:text-sm">TA</span>
               </div>
-              <span className="text-lg md:text-xl font-bold">GYMAHOLIC</span>
+              <span className="text-base md:text-xl font-bold">TRAIN WITH AJAY</span>
             </div>
             <p className="text-blue-100 text-sm md:text-base">
               Professional personal training in Chandigarh with proven results. Transform your body and life with expert guidance from Ajay Verma.
@@ -20,7 +20,7 @@ const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          <div>
+          <div className="hidden md:block">
             <h3 className="text-base md:text-lg font-semibold mb-3 md:mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li><Link to="/" className="text-blue-100 hover:text-white transition-colors text-sm md:text-base">Home</Link></li>
@@ -31,7 +31,7 @@ const Footer = () => {
           </div>
 
           {/* Services */}
-          <div>
+          <div className="hidden md:block">
             <h3 className="text-base md:text-lg font-semibold mb-3 md:mb-4">Services</h3>
             <ul className="space-y-2 text-blue-100 text-sm md:text-base">
               <li>Personal Training</li>
@@ -47,7 +47,7 @@ const Footer = () => {
             <div className="space-y-2 text-blue-100 text-sm md:text-base">
               <p>📧 trainerajayverma10@gmail.com</p>
               <p>📱 +91 7973848128</p>
-              <p>📍 Gymaholic Wellness Studio, Shanti Nagar Manimajra, Chandigarh</p>
+              <p className="hidden md:block">📍 Gymaholic Wellness Studio, Shanti Nagar Manimajra, Chandigarh</p>
               <p>📸 @gymaholic_wellness_studio</p>
             </div>
             <div className="mt-4">
@@ -62,7 +62,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-blue-800 mt-6 md:mt-8 pt-6 md:pt-8 text-center text-blue-100 text-xs md:text-sm">
-          <p>&copy; 2024 GYMAHOLIC. All rights reserved. | Professional Personal Training Services in Chandigarh by Ajay Verma</p>
+          <p>&copy; 2024 TRAIN WITH AJAY. All rights reserved. | Professional Personal Training Services in Chandigarh by Ajay Verma</p>
         </div>
       </div>
     </footer>

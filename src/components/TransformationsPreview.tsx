@@ -6,28 +6,28 @@ import { Link } from 'react-router-dom';
 const TransformationsPreview = () => {
   const transformations = [
     {
-      name: "Priya S.",
+      name: "Rohit M.",
       program: "Weight Loss Program",
-      result: "Lost 15 kgs in 12 weeks",
-      beforeImage: "https://images.unsplash.com/photo-1594736797933-d0d501ba2fe6?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      afterImage: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      testimonial: "The program changed my life completely. I feel stronger and more confident than ever before. The Indian diet plan made it so much easier to follow."
+      result: "Lost 18 kgs in 14 weeks",
+      beforeImage: "/lovable-uploads/72446fa7-eedc-4848-bf93-28428b2d74e4.png",
+      afterImage: "/lovable-uploads/1e9d56d3-d635-4f79-8aca-8d5d76fd9b86.png",
+      testimonial: "Training with Ajay completely changed my life. I lost weight, gained confidence, and learned sustainable eating habits that work with Indian cuisine."
     },
     {
-      name: "Rohit K.",
+      name: "Priya S.",
+      program: "Body Transformation",
+      result: "Lost 12 kgs & toned body",
+      beforeImage: "/lovable-uploads/ddc0855d-4c0a-4859-859f-7476fd9ac148.png",
+      afterImage: "/lovable-uploads/23f987f0-0ff2-4645-b51b-a6afce063afc.png",
+      testimonial: "Ajay's guidance helped me achieve the toned body I always wanted. The combination of strength training and proper nutrition worked perfectly."
+    },
+    {
+      name: "Vikram K.",
       program: "Muscle Building",
-      result: "Gained 8 kgs muscle",
-      beforeImage: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      afterImage: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      testimonial: "Professional guidance made all the difference. I achieved results I never thought possible while following my vegetarian diet."
-    },
-    {
-      name: "Anita M.",
-      program: "Functional Fitness",
-      result: "Improved mobility & strength",
-      beforeImage: "https://images.unsplash.com/photo-1594736797933-d0d501ba2fe6?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      afterImage: "https://images.unsplash.com/photo-1599058917212-d750089bc07e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      testimonial: "My daily activities became so much easier. No more back pain and I feel energized all day. The yoga integration was perfect for me."
+      result: "Gained 8 kgs lean muscle",
+      beforeImage: "/lovable-uploads/23f987f0-0ff2-4645-b51b-a6afce063afc.png",
+      afterImage: "/lovable-uploads/0e5182a0-a942-4bc2-b4da-a419c6f9f8e3.png",
+      testimonial: "Professional guidance from Ajay made all the difference. I built muscle while following my vegetarian diet and feel stronger than ever."
     }
   ];
 

@@ -12,42 +12,42 @@ const Resources = () => {
       type: "PDF Guide",
       description: "Complete workout routines for beginners with detailed exercise instructions and form tips from Gold's Gym certified trainer.",
       icon: <FileText className="w-6 h-6" />,
-      link: "mailto:trainerajayverma10@gmail.com?subject=Request%20for%20Beginner's%20Workout%20Guide&body=Hi%20Ajay,%0A%0AI%20would%20like%20to%20request%20your%20Beginner's%20Workout%20Guide.%0A%0AThank%20you!"
+      whatsappMessage: "Hi Ajay, I would like to request your Beginner's Workout Guide. Could you please share it with me?"
     },
     {
       title: "Indian Diet Plan for Weight Loss",
       type: "PDF Guide",
       description: "Customized meal plans featuring traditional Indian foods for sustainable weight loss, designed by certified nutritionist Ajay Verma.",
       icon: <BookOpen className="w-6 h-6" />,
-      link: "mailto:trainerajayverma10@gmail.com?subject=Request%20for%20Diet%20Plan&body=Hi%20Ajay,%0A%0AI%20would%20like%20to%20request%20your%20Indian%20Diet%20Plan%20for%20Weight%20Loss.%0A%0AThank%20you!"
+      whatsappMessage: "Hi Ajay, I would like to request your Indian Diet Plan for Weight Loss. Please share the details."
     },
     {
       title: "Home Workout Videos",
       type: "Video Series",
       description: "Follow-along workout videos you can do at home with minimal equipment, guided by Ajay Verma.",
       icon: <Video className="w-6 h-6" />,
-      link: "mailto:trainerajayverma10@gmail.com?subject=Request%20for%20Home%20Workout%20Videos&body=Hi%20Ajay,%0A%0AI%20would%20like%20to%20request%20access%20to%20your%20Home%20Workout%20Videos.%0A%0AThank%20you!"
+      whatsappMessage: "Hi Ajay, I would like to request access to your Home Workout Videos. Please let me know how to get them."
     },
     {
       title: "Muscle Building Nutrition Guide",
       type: "PDF Guide",
       description: "Comprehensive nutrition guide for building lean muscle with Indian vegetarian and non-vegetarian options by dietitian Ajay Verma.",
       icon: <FileText className="w-6 h-6" />,
-      link: "mailto:trainerajayverma10@gmail.com?subject=Request%20for%20Nutrition%20Guide&body=Hi%20Ajay,%0A%0AI%20would%20like%20to%20request%20your%20Muscle%20Building%20Nutrition%20Guide.%0A%0AThank%20you!"
+      whatsappMessage: "Hi Ajay, I would like to request your Muscle Building Nutrition Guide. Could you please share it?"
     },
     {
       title: "Yoga & Flexibility Routines",
       type: "PDF + Video",
       description: "Traditional yoga asanas and stretching routines for improved flexibility and recovery, curated by Ajay.",
       icon: <Download className="w-6 h-6" />,
-      link: "mailto:trainerajayverma10@gmail.com?subject=Request%20for%20Yoga%20Routines&body=Hi%20Ajay,%0A%0AI%20would%20like%20to%20request%20your%20Yoga%20and%20Flexibility%20Routines.%0A%0AThank%20you!"
+      whatsappMessage: "Hi Ajay, I would like to request your Yoga and Flexibility Routines. Please share the materials."
     },
     {
       title: "Cardio Training Plan",
       type: "PDF Guide",
       description: "Structured cardio workouts suitable for Indian climate and available equipment, designed by certified trainer Ajay Verma.",
       icon: <FileText className="w-6 h-6" />,
-      link: "mailto:trainerajayverma10@gmail.com?subject=Request%20for%20Cardio%20Plan&body=Hi%20Ajay,%0A%0AI%20would%20like%20to%20request%20your%20Cardio%20Training%20Plan.%0A%0AThank%20you!"
+      whatsappMessage: "Hi Ajay, I would like to request your Cardio Training Plan. Could you please provide it?"
     }
   ];
 
@@ -62,7 +62,7 @@ const Resources = () => {
             Free Fitness Resources by Ajay Verma
           </h1>
           <p className="text-lg md:text-xl text-blue-100 max-w-3xl mx-auto">
-            Download free workout guides, diet plans, and fitness resources designed specifically for Indian fitness enthusiasts by Gold's Gym certified trainer.
+            Get exclusive workout guides, diet plans, and fitness resources designed specifically for Indian fitness enthusiasts by Gold's Gym certified trainer.
           </p>
         </div>
       </section>
@@ -92,7 +92,7 @@ const Resources = () => {
                     asChild 
                     className="w-full bg-primary hover:bg-primary/90 text-sm md:text-base"
                   >
-                    <a href={resource.link}>Request Resource</a>
+                    <a href={`https://wa.me/917973848128?text=${encodeURIComponent(resource.whatsappMessage)}`}>Connect with Trainer</a>
                   </Button>
                 </CardContent>
               </Card>
@@ -111,7 +111,7 @@ const Resources = () => {
             Get customized workout and nutrition plans tailored to your specific goals and lifestyle with Gold's Gym certified trainer and nutritionist.
           </p>
           <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-white font-semibold text-base md:text-lg px-6 md:px-8 py-3 md:py-4">
-            <a href="mailto:trainerajayverma10@gmail.com?subject=Personal%20Training%20Consultation&body=Hi%20Ajay,%0A%0AI%20would%20like%20to%20book%20a%20personal%20consultation%20to%20discuss%20my%20fitness%20goals.%0A%0APlease%20let%20me%20know%20your%20available%20time%20slots.%0A%0AThank%20you!">Book Personal Consultation</a>
+            <a href="https://wa.me/917973848128?text=Hi%20Ajay,%20I%20would%20like%20to%20book%20a%20personal%20consultation%20to%20discuss%20my%20fitness%20goals.%20Please%20let%20me%20know%20your%20available%20time%20slots.">Book Personal Consultation</a>
           </Button>
         </div>
       </section>
