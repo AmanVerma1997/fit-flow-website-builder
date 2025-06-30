@@ -13,12 +13,12 @@ const About = () => {
   ];
 
   const certifications = [
-    "Certified Personal Trainer (CPT)",
+    "Gold's Gym Certified Personal Trainer",
+    "Professional Dietitian & Nutritionist",
     "Sports Nutrition Specialist",
     "Functional Movement Screen (FMS)",
-    "Yoga Alliance Certified (RYT-200)",
-    "First Aid & CPR Certified",
-    "Strength & Conditioning Specialist"
+    "Strength & Conditioning Specialist",
+    "First Aid & CPR Certified"
   ];
 
   return (
@@ -36,11 +36,11 @@ const About = () => {
                 <span className="text-accent block">Starts Here</span>
               </h1>
               <p className="text-lg md:text-xl text-blue-100 mb-6 md:mb-8 leading-relaxed">
-                Hi, I'm Rahul Sharma, a certified fitness trainer from Mumbai with over 5 years of experience in transforming lives through fitness. My mission is to make fitness accessible and enjoyable for everyone.
+                Hi, I'm Ajay Verma, a Gold's Gym certified personal trainer and professional dietitian from Chandigarh with over 5 years of experience in transforming lives through fitness. My mission is to make fitness accessible and sustainable for everyone.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-white font-semibold text-base md:text-lg px-6 md:px-8 py-3 md:py-4">
-                  <a href="mailto:trainer@fitflow.com?subject=Personal Training Consultation">Book Consultation</a>
+                  <a href="https://wa.me/917973848128?text=Hi%20Ajay,%20I'm%20interested%20in%20your%20fitness%20programs%20and%20would%20like%20to%20book%20a%20consultation.">Book Consultation</a>
                 </Button>
               </div>
             </div>
@@ -50,7 +50,7 @@ const About = () => {
               <div className="aspect-square rounded-2xl overflow-hidden bg-white/10 backdrop-blur-sm">
                 <img
                   src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                  alt="Rahul Sharma - Personal Trainer"
+                  alt="Ajay Verma - Professional Personal Trainer"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -91,19 +91,19 @@ const About = () => {
           
           <div className="space-y-6 md:space-y-8 text-gray-700 text-base md:text-lg leading-relaxed">
             <p>
-              My fitness journey began during my college days in Mumbai when I struggled with my own health and confidence. Like many Indians, I grew up with limited awareness about proper nutrition and exercise. This personal struggle led me to discover the transformative power of fitness.
+              My fitness journey began in Chandigarh when I realized the transformative power of proper training and nutrition. After struggling with my own fitness goals, I decided to pursue professional training and became a Gold's Gym certified trainer, combining it with my passion for nutrition science.
             </p>
             
             <p>
-              After completing my engineering degree, I decided to pursue my passion for fitness professionally. I obtained multiple certifications and started training clients from my neighborhood gym. What started as helping a few friends has now grown into a mission to transform hundreds of lives.
+              As the owner and head trainer of GYMAHOLIC Wellness Studio in Manimajra, Chandigarh, I've dedicated my career to helping people achieve their fitness goals through personalized training programs and professional nutrition guidance. My dual expertise as both a certified trainer and professional dietitian allows me to provide comprehensive fitness solutions.
             </p>
             
             <p>
-              I specialize in creating fitness programs that work with Indian lifestyles, food habits, and cultural preferences. Whether it's incorporating traditional exercises like yoga and kalaripayattu or designing nutrition plans with local ingredients, I believe fitness should be sustainable and enjoyable.
+              I specialize in creating sustainable fitness programs that work with Indian lifestyles, food habits, and cultural preferences. Whether it's weight loss, muscle building, or overall wellness, I believe in combining scientific training methods with practical nutrition that incorporates local ingredients and traditional eating patterns.
             </p>
             
             <p>
-              My approach combines modern scientific training methods with traditional Indian wellness practices. I've helped software engineers reduce back pain, helped mothers regain strength post-pregnancy, and guided young professionals build confidence through fitness.
+              At GYMAHOLIC, I've helped over 500 clients transform their lives - from busy professionals dealing with lifestyle diseases to students wanting to build confidence through fitness. My approach focuses on long-term results rather than quick fixes, ensuring every client develops healthy habits that last a lifetime.
             </p>
           </div>
         </div>
@@ -117,7 +117,7 @@ const About = () => {
               Certifications & Qualifications
             </h2>
             <p className="text-lg md:text-xl text-gray-600">
-              Continuously learning to provide you with the best training experience
+              Continuously learning to provide you with the best training and nutrition guidance
             </p>
           </div>
           
@@ -139,10 +139,10 @@ const About = () => {
             Ready to Transform Your Life?
           </h2>
           <p className="text-lg md:text-xl text-blue-100 mb-6 md:mb-8">
-            Let's work together to achieve your fitness goals with personalized training and guidance.
+            Let's work together to achieve your fitness goals with personalized training and nutrition guidance at GYMAHOLIC Wellness Studio.
           </p>
           <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-white font-semibold text-base md:text-lg px-6 md:px-8 py-3 md:py-4">
-            <a href="mailto:trainer@fitflow.com?subject=Personal Training Consultation">Start Your Journey</a>
+            <a href="https://wa.me/917973848128?text=Hi%20Ajay,%20I'm%20interested%20in%20your%20fitness%20programs%20and%20would%20like%20to%20start%20my%20transformation%20journey.">Start Your Journey</a>
           </Button>
         </div>
       </section>

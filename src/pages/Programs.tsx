@@ -163,7 +163,7 @@ const Programs = () => {
                     </ul>
                   </div>
                   <Button asChild className="w-full bg-primary hover:bg-primary/90 mt-auto">
-                    <a href="mailto:trainer@fitflow.com?subject=Interest in Training Program">Get Started</a>
+                    <a href={`https://wa.me/917973848128?text=Hi%20Ajay,%20I'm%20interested%20in%20the%20${program.title}%20program.%20Could%20you%20please%20share%20more%20details%20about%20the%20training%20schedule%20and%20how%20to%20get%20started?`}>Get Started</a>
                   </Button>
                 </CardContent>
               </Card>
@@ -182,7 +182,7 @@ const Programs = () => {
             Book a free consultation to discuss your goals and find the perfect program for you.
           </p>
           <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-white font-semibold text-base md:text-lg px-6 md:px-8 py-3 md:py-4">
-            <a href="mailto:trainer@fitflow.com?subject=Free Consultation Request">Book Free Consultation</a>
+            <a href="https://wa.me/917973848128?text=Hi%20Ajay,%20I'm%20interested%20in%20your%20fitness%20programs%20and%20would%20like%20to%20book%20a%20free%20consultation%20to%20discuss%20my%20fitness%20goals.">Book Free Consultation</a>
           </Button>
         </div>
       </section>
