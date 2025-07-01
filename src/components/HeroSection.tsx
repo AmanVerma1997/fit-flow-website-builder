@@ -36,7 +36,7 @@ const HeroSection = () => {
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-white font-semibold text-base md:text-lg px-6 md:px-8 py-3 md:py-4">
-                <Link to="/programs">View Programs</Link>
+                <a href="https://wa.me/917973848128?text=Hi%20Ajay,%20I'm%20interested%20in%20your%20fitness%20programs%20and%20would%20like%20to%20get%20started%20with%20my%20transformation%20journey.">Get Started</a>
               </Button>
               <Button asChild size="lg" className="bg-white/20 hover:bg-white hover:text-primary text-white font-semibold text-base md:text-lg px-6 md:px-8 py-3 md:py-4 backdrop-blur-sm border border-white/30">
                 <a href="https://wa.me/917973848128?text=Hi%20Ajay,%20I'm%20interested%20in%20your%20fitness%20programs%20and%20would%20like%20to%20book%20a%20free%20consultation.">Book Free Consultation</a>
