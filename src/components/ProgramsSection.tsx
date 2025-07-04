@@ -72,7 +72,7 @@ const ProgramsSection = () => {
                   </ul>
                 </div>
                 <Button asChild className="w-full bg-primary hover:bg-primary/90 mt-auto">
-                  <a href="mailto:trainer@fitflow.com?subject=Interest in Training Program">Get Started</a>
+                  <a href="https://wa.me/917973848128?text=Hi%20Ajay,%20I'm%20interested%20in%20your%20fitness%20programs%20and%20would%20like%20to%20get%20started%20with%20my%20transformation%20journey." target="_blank" rel="noopener noreferrer">Get Started</a>
                 </Button>
               </CardContent>
             </Card>
