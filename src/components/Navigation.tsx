@@ -21,8 +21,12 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-14 md:h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-7 h-7 md:w-8 md:h-8 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xs md:text-sm">TA</span>
+            <div className="w-7 h-7 md:w-8 md:h-8 bg-primary rounded-lg flex items-center justify-center overflow-hidden">
+              <img
+                src="/lovable-uploads/69c70de7-75e0-4ea2-9827-1735359840d4.png"
+                alt="Ajay Verma"
+                className="w-full h-full object-cover"
+              />
             </div>
             <span className="text-sm md:text-xl font-bold text-primary">TRAIN WITH AJAY</span>
           </Link>

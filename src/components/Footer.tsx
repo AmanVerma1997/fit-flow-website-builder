@@ -9,8 +9,12 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4 col-span-1 md:col-span-2 lg:col-span-1">
             <div className="flex items-center space-x-2">
-              <div className="w-7 h-7 md:w-8 md:h-8 bg-accent rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xs md:text-sm">TA</span>
+              <div className="w-7 h-7 md:w-8 md:h-8 bg-accent rounded-lg flex items-center justify-center overflow-hidden">
+                <img
+                  src="/lovable-uploads/69c70de7-75e0-4ea2-9827-1735359840d4.png"
+                  alt="Ajay Verma"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <span className="text-base md:text-xl font-bold">TRAIN WITH AJAY</span>
             </div>
