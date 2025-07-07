@@ -8,12 +8,12 @@ const Contact = () => {
     {
       title: "Book Personal Training",
       description: "Schedule your 1-on-1 session with Ajay",
-      action: "Call Now",
+      action: "Call Now", 
       link: "tel:+917973848128",
       icon: "📞"
     },
     {
-      title: "WhatsApp Message", 
+      title: "WhatsApp Message",
       description: "Quick questions and bookings",
       action: "Message Now",
       link: "https://wa.me/917973848128?text=Hi%20Ajay,%20I'm%20interested%20in%20your%20fitness%20programs%20and%20would%20like%20to%20book%20a%20consultation.",
@@ -103,7 +103,7 @@ const Contact = () => {
                 </CardHeader>
                 <CardContent>
                   <Button asChild className="w-full bg-accent hover:bg-accent/90 font-semibold">
-                    <a href={method.link} className="flex items-center justify-center text-white">
+                    <a href={method.link} className="flex items-center justify-center !text-white">
                       {method.action}
                     </a>
                   </Button>
@@ -209,10 +209,10 @@ const Contact = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="bg-accent hover:bg-accent/90 font-semibold">
-              <a href="tel:+917973848128" className="text-white">Call +91 7973848128</a>
+              <a href="tel:+917973848128" className="!text-white">Call +91 7973848128</a>
             </Button>
             <Button asChild size="lg" variant="outline" className="border-white hover:bg-white hover:text-primary font-semibold">
-              <a href="mailto:trainwithajayverma@gmail.com?subject=Free%20Consultation%20Request&body=Hi%20Ajay,%0A%0AI%20would%20like%20to%20book%20a%20free%20consultation%20to%20discuss%20my%20fitness%20goals.%0A%0APlease%20let%20me%20know%20your%20available%20time%20slots.%0A%0AThank%20you!" className="text-white">
+              <a href="mailto:trainwithajayverma@gmail.com?subject=Free%20Consultation%20Request&body=Hi%20Ajay,%0A%0AI%20would%20like%20to%20book%20a%20free%20consultation%20to%20discuss%20my%20fitness%20goals.%0A%0APlease%20let%20me%20know%20your%20available%20time%20slots.%0A%0AThank%20you!" className="!text-white">
                 Email for Consultation
               </a>
             </Button>
