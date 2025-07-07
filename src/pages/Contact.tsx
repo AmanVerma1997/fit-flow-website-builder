@@ -1,4 +1,3 @@
-
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -103,8 +102,8 @@ const Contact = () => {
                   <p className="text-gray-600">{method.description}</p>
                 </CardHeader>
                 <CardContent>
-                  <Button asChild className="w-full bg-accent hover:bg-accent/90 text-white font-semibold">
-                    <a href={method.link} className="flex items-center justify-center">
+                  <Button asChild className="w-full bg-accent hover:bg-accent/90 font-semibold">
+                    <a href={method.link} className="flex items-center justify-center text-white">
                       {method.action}
                     </a>
                   </Button>
@@ -209,11 +208,11 @@ const Contact = () => {
             Not sure which program is right for you? Book a free 30-minute consultation with Ajay to discuss your goals and get personalized recommendations.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-white font-semibold">
-              <a href="tel:+917973848128">Call +91 7973848128</a>
+            <Button asChild size="lg" className="bg-accent hover:bg-accent/90 font-semibold">
+              <a href="tel:+917973848128" className="text-white">Call +91 7973848128</a>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary font-semibold">
-              <a href="mailto:trainwithajayverma@gmail.com?subject=Free%20Consultation%20Request&body=Hi%20Ajay,%0A%0AI%20would%20like%20to%20book%20a%20free%20consultation%20to%20discuss%20my%20fitness%20goals.%0A%0APlease%20let%20me%20know%20your%20available%20time%20slots.%0A%0AThank%20you!">
+            <Button asChild size="lg" variant="outline" className="border-white hover:bg-white hover:text-primary font-semibold">
+              <a href="mailto:trainwithajayverma@gmail.com?subject=Free%20Consultation%20Request&body=Hi%20Ajay,%0A%0AI%20would%20like%20to%20book%20a%20free%20consultation%20to%20discuss%20my%20fitness%20goals.%0A%0APlease%20let%20me%20know%20your%20available%20time%20slots.%0A%0AThank%20you!" className="text-white">
                 Email for Consultation
               </a>
             </Button>
