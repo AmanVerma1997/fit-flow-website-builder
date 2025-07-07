@@ -13,7 +13,7 @@ const Contact = () => {
       icon: "📞"
     },
     {
-      title: "WhatsApp Message",
+      title: "WhatsApp Message", 
       description: "Quick questions and bookings",
       action: "Message Now",
       link: "https://wa.me/917973848128?text=Hi%20Ajay,%20I'm%20interested%20in%20your%20fitness%20programs%20and%20would%20like%20to%20book%20a%20consultation.",
@@ -102,8 +102,10 @@ const Contact = () => {
                   <p className="text-gray-600">{method.description}</p>
                 </CardHeader>
                 <CardContent>
-                  <Button asChild className="w-full bg-accent hover:bg-accent/90 text-white font-semibold">
-                    <a href={method.link}>{method.action}</a>
+                  <Button asChild className="w-full bg-accent hover:bg-accent/90 text-white font-semibold py-3 px-4 text-base">
+                    <a href={method.link} className="block w-full h-full flex items-center justify-center">
+                      {method.action}
+                    </a>
                   </Button>
                 </CardContent>
               </Card>
@@ -210,7 +212,9 @@ const Contact = () => {
               <a href="tel:+917973848128">Call +91 7973848128</a>
             </Button>
             <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary font-semibold text-lg px-8 py-4">
-              <a href="mailto:trainwithajayverma@gmail.com?subject=Free%20Consultation%20Request&body=Hi%20Ajay,%0A%0AI%20would%20like%20to%20book%20a%20free%20consultation%20to%20discuss%20my%20fitness%20goals.%0A%0APlease%20let%20me%20know%20your%20available%20time%20slots.%0A%0AThank%20you!">Email for Consultation</a>
+              <a href="mailto:trainwithajayverma@gmail.com?subject=Free%20Consultation%20Request&body=Hi%20Ajay,%0A%0AI%20would%20like%20to%20book%20a%20free%20consultation%20to%20discuss%20my%20fitness%20goals.%0A%0APlease%20let%20me%20know%20your%20available%20time%20slots.%0A%0AThank%20you!" className="block w-full h-full flex items-center justify-center">
+                Email for Consultation
+              </a>
             </Button>
           </div>
         </div>
